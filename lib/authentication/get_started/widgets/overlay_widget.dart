@@ -18,7 +18,7 @@ class OverlayWidget extends StatelessWidget {
           end: Alignment.bottomCenter,
           colors: [
             PearlColors.primaryColor,
-            Colors.transparent,
+            PearlColors.transparent,
             PearlColors.primaryColor.withOpacity(0.5),
             PearlColors.primaryColor,
           ],

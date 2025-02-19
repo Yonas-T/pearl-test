@@ -23,9 +23,9 @@ class GetStartedContent extends StatelessWidget {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Colors.grey.withOpacity(0.3),
-              Colors.grey.withOpacity(0.1),
-              Colors.transparent,
+              PearlColors.greyColor.withOpacity(0.3),
+              PearlColors.greyColor.withOpacity(0.1),
+              PearlColors.transparent,
             ],
             stops: const [0.0, 0.4, 1.0],
           ),
@@ -44,21 +44,21 @@ class GetStartedContent extends StatelessWidget {
                 ),
                 child: const Icon(
                   FontAwesomeIcons.award,
-                  color: Colors.green,
+                  color: PearlColors.greenColor,
                   size: 40,
                 ),
               ),
               const CustomSizedBox(height: 8),
               const CustomText(
                 text: 'Get Started',
-                color: Colors.white,
+                color: PearlColors.whiteColor,
                 fontWeight: FontWeight.bold,
               ),
               const CustomSizedBox(height: 8),
               const CustomText(
                 text:
                     "Access the Pearl Certification Report provided by your contractor or agent in the Docs feature. Don't have a certification yet? Start by adding your home's features - HVAC, insulation, and more - to your profile. Watch your Pearl Points accumulate and order your certification when you're ready to sell or refinance.",
-                color: Colors.white,
+                color: PearlColors.whiteColor,
                 fontSize: 14,
               ),
               const CustomSizedBox(height: 16),
